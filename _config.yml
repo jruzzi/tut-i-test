@@ -1,0 +1,12 @@
+title: tut-i-test Tutorials
+theme: minima
+description: >- # this means to ignore newlines until "baseurl:"
+    A tutorial that uses Jekyll
+baseurl: /tut-i-test
+markdown: kramdown
+defaults:
+  -
+    scope:
+      path: "" # All files in the project
+    values:
+      layout: "tutorial"
